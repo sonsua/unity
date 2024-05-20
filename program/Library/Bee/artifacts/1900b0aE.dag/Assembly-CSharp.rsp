@@ -364,6 +364,8 @@
 "Assets/Class 4th (Life Cycle)/Scripts/Sphere.cs"
 "Assets/Class 5th (Collider)/Scripts/Cube.cs"
 "Assets/Class 5th (Collider)/Scripts/EffectZone.cs"
+"Assets/Class 6th (User Interface)/Scripts/ButtonManager.cs"
+"Assets/Class 7th (Sound)/Scripts/Audio Manager.cs"
 -langversion:9.0
 
 /deterministic
