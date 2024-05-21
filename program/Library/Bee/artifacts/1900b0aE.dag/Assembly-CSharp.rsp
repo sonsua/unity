@@ -366,6 +366,7 @@
 "Assets/Class 5th (Collider)/Scripts/EffectZone.cs"
 "Assets/Class 6th (User Interface)/Scripts/ButtonManager.cs"
 "Assets/Class 7th (Sound)/Scripts/Audio Manager.cs"
+"Assets/Scripts/Player.cs"
 -langversion:9.0
 
 /deterministic
