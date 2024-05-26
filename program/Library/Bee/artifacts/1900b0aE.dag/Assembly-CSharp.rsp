@@ -358,6 +358,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"D:/program/2022.2.19f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/program/2022.2.19f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Class 10th (Prefab System)/Scripts/Box.cs"
+"Assets/Class 11th (RayCast)/Scripts/Health.cs"
+"Assets/Class 11th (RayCast)/Scripts/Mouse.cs"
 "Assets/Class 2th (Export Package)/Scripts/Data.cs"
 "Assets/Class 3th (Animator)/Scripts/Aj.cs"
 "Assets/Class 4th (Life Cycle)/Scripts/Life.cs"
@@ -366,7 +369,13 @@
 "Assets/Class 5th (Collider)/Scripts/EffectZone.cs"
 "Assets/Class 6th (User Interface)/Scripts/ButtonManager.cs"
 "Assets/Class 7th (Sound)/Scripts/Audio Manager.cs"
-"Assets/Scripts/Player.cs"
+"Assets/Class 8th (Transform)/Scripts/Player.cs"
+"Assets/Class 9th (Instantiate & Destroy)/Scripts/CreateManager.cs"
+"Assets/Class 9th (Instantiate & Destroy)/Scripts/DestroyManager.cs"
+"Assets/Class 9th (Instantiate & Destroy)/Scripts/Factory.cs"
+"Assets/Class 9th (Instantiate & Destroy)/Scripts/Slime.cs"
+"Assets/Class 9th (Instantiate & Destroy)/Scripts/Unit.cs"
+"Assets/Class 9th (Instantiate & Destroy)/Scripts/Wrairh.cs"
 -langversion:9.0
 
 /deterministic
