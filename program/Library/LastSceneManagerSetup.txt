@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Class 11th (RayCast)/Scenes/Scene.unity
+- path: Assets/Class 13th (Animation Clip)/Scenes/Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
