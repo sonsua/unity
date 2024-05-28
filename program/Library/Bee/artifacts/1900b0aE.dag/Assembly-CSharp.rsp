@@ -362,6 +362,8 @@
 "Assets/Class 11th (RayCast)/Scripts/Health.cs"
 "Assets/Class 11th (RayCast)/Scripts/Mouse.cs"
 "Assets/Class 12th (Animation Blend Tree)/Scripts/Girl.cs"
+"Assets/Class 13th (Animation Clip)/Scripts/Parallax.cs"
+"Assets/Class 14th (Coroutine)/Scripts/Earth.cs"
 "Assets/Class 2th (Export Package)/Scripts/Data.cs"
 "Assets/Class 3th (Animator)/Scripts/Aj.cs"
 "Assets/Class 4th (Life Cycle)/Scripts/Life.cs"
@@ -375,7 +377,7 @@
 "Assets/Class 9th (Instantiate & Destroy)/Scripts/DestroyManager.cs"
 "Assets/Class 9th (Instantiate & Destroy)/Scripts/Factory.cs"
 "Assets/Class 9th (Instantiate & Destroy)/Scripts/Slime.cs"
-"Assets/Class 9th (Instantiate & Destroy)/Scripts/Unit.cs"
+"Assets/Class 9th (Instantiate & Destroy)/Scripts/Unit1.cs"
 "Assets/Class 9th (Instantiate & Destroy)/Scripts/Wrairh.cs"
 -langversion:9.0
 
