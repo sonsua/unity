@@ -18,7 +18,11 @@ public class Ball : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (gameManager.State == false) { return; }
+        if (gameManager.State == false) { 
+            
+            rigidbody.freezeRotation = true;
+            return;
+        }
 
         direction.x = Input.GetAxisRaw("Horizontal");
         direction.z = Input.GetAxisRaw("Vertical");
@@ -26,6 +30,10 @@ public class Ball : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (gameManager.State == false)
+        {
+            return;
+        }
         //Impulse : 순간적인 힘
         rigidbody.AddForce(direction*speed*Time.fixedDeltaTime, ForceMode.Impulse);
     }

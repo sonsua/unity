@@ -9,6 +9,7 @@ public class UIManager : MonoBehaviour
 
     public void Result(string resultName)
     {
-        
+        resultText.gameObject.SetActive(true);
+        resultText.text = resultName;
     }
 }
