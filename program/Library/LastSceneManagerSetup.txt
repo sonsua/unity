@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Class 17th (Terrain)/Scenes/Scene.unity
+- path: Assets/Class 18th (Light)/Scenes/Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
