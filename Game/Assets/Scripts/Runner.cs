@@ -17,6 +17,11 @@ public class Runner : MonoBehaviour
     [SerializeField] RoadLine roadLine;
     [SerializeField] float positionX = 3.5f;
 
+    private void OnEnable()
+    {
+        InputManager.Instance.keyAction += OnKeyUpdate;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,45 +29,39 @@ public class Runner : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnKeyUpdate()
     {
-            if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            if (roadLine != RoadLine.LEFT)
             {
-            if(roadLine != RoadLine.LEFT) {
                 roadLine--;
                 animator.Play("Left Move");
-            }    
             }
-            if (Input.GetKeyDown(KeyCode.RightArrow))
-            {
+        }
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
             if (roadLine != RoadLine.RIGHT)
             {
                 roadLine++;
                 animator.Play("Right Move");
             }
         }
-        Status(roadLine);
     }
 
-    public void Status(RoadLine roadLine)
-    {
-        switch (roadLine)
-        {
-            case RoadLine.LEFT: Move(-positionX);
-                Debug.Log("Left");
-                break;
-            case RoadLine.MIDDLE: Move(0);
-                Debug.Log("Middle");
-                break;
-            case RoadLine.RIGHT: Move(positionX);
-                Debug.Log("Right");
-                break;
-        }
+    // Update is called once per frame
+    void Update()
+    {         
+        Move();
     }
 
-    public void Move(float positionX)
+    public void Move()
     {
-        transform.position = new Vector3(positionX, 0, 0);
+        transform.position = new Vector3(positionX*(float)roadLine, 0, 0);
+    }
+
+    private void OnDisable()
+    {
+        InputManager.Instance.keyAction -= OnKeyUpdate;
     }
 }
