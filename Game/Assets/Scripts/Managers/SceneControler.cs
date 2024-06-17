@@ -10,6 +10,8 @@ public class SceneControler : Singleton<SceneControler>
 
     public IEnumerator FadeIn()
     {
+        loadImage.gameObject.SetActive(true);
+
         Color color = loadImage.color;
 
         color.a = 1;
@@ -21,6 +23,7 @@ public class SceneControler : Singleton<SceneControler>
 
             yield return null;
         }
+        loadImage.gameObject.SetActive(false);
     }
 
     public IEnumerator AsyncLoad(int index)
@@ -28,6 +31,8 @@ public class SceneControler : Singleton<SceneControler>
         AsyncOperation asyncOperation= SceneManager.LoadSceneAsync(index);
 
         asyncOperation.allowSceneActivation = false;
+
+        loadImage.gameObject.SetActive(true);
 
         Color color = loadImage.color;
 
@@ -45,6 +50,7 @@ public class SceneControler : Singleton<SceneControler>
 
                 if(color.a >= 1.0f)
                 {
+                    asyncOperation.allowSceneActivation = true;
                     yield break;
                 }
             }
