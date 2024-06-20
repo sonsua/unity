@@ -366,9 +366,12 @@
 -analyzer:"D:/program/2022.2.19f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Mainmenu.cs"
 "Assets/Scripts/Managers/InputManager.cs"
+"Assets/Scripts/Managers/ObstacleManager.cs"
 "Assets/Scripts/Managers/RoadManager.cs"
 "Assets/Scripts/Managers/SceneControler.cs"
 "Assets/Scripts/Managers/Singleton.cs"
+"Assets/Scripts/Managers/SoundManager.cs"
+"Assets/Scripts/Obstacle.cs"
 "Assets/Scripts/RoadTreadmill.cs"
 "Assets/Scripts/Runner.cs"
 -langversion:9.0
