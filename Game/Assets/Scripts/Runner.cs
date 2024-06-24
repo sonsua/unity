@@ -13,6 +13,7 @@ public enum RoadLine
 public class Runner : MonoBehaviour
 {
     [SerializeField] Animator animator;
+    [SerializeField] AudioClip sound;
 
     [SerializeField] RoadLine roadLine;
     [SerializeField] float positionX = 3.5f;
@@ -37,6 +38,8 @@ public class Runner : MonoBehaviour
             {
                 roadLine--;
                 animator.Play("Left Move");
+
+
             }
         }
         if (Input.GetKeyDown(KeyCode.RightArrow))
