@@ -17,6 +17,7 @@ public class Runner : MonoBehaviour
 
     [SerializeField] RoadLine roadLine;
     [SerializeField] float positionX = 3.5f;
+    [SerializeField] float speed = 5.0f;
 
     private void OnEnable()
     {
@@ -37,8 +38,10 @@ public class Runner : MonoBehaviour
             if (roadLine != RoadLine.LEFT)
             {
                 roadLine--;
-                animator.Play("Left Move");
 
+                SoundManager.Instance.Sound(sound);
+
+                animator.Play("Left Move");
 
             }
         }
@@ -47,6 +50,9 @@ public class Runner : MonoBehaviour
             if (roadLine != RoadLine.RIGHT)
             {
                 roadLine++;
+
+                SoundManager.Instance.Sound(sound);
+
                 animator.Play("Right Move");
             }
         }
@@ -60,7 +66,7 @@ public class Runner : MonoBehaviour
 
     public void Move()
     {
-        transform.position = new Vector3(positionX*(float)roadLine, 0, 0);
+        transform.position = Vector3.Lerp(transform.position, new Vector3(positionX * (float)roadLine, 0, 0), speed*Time.deltaTime);
     }
 
     private void OnDisable()

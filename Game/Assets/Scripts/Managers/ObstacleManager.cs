@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ObstacleManager : MonoBehaviour
@@ -11,11 +12,18 @@ public class ObstacleManager : MonoBehaviour
 
     [SerializeField] float speed = 1.0f;
 
+    [SerializeField] int random;
+    [SerializeField] int randomPosition;
+
+    [SerializeField] Transform[] activePosition;
+
     private void Start()
     {
         obstacleList.Capacity = 10;
 
         Create();
+
+        StartCoroutine(ActiveObstacle());
     }
 
 
@@ -29,5 +37,47 @@ public class ObstacleManager : MonoBehaviour
 
             obstacleList.Add(obstacle);
         }
+    }
+
+    public IEnumerator ActiveObstacle()
+    {
+        WaitForSeconds waitForSeconds = new WaitForSeconds(5f);
+
+        while (true)
+        {
+            random = Random.Range(0, obstacleList.Count);
+            randomPosition = Random.Range(0, activePosition.Length);
+
+            while (obstacleList[random].activeSelf == true)
+            {
+                if (ExamineActive())
+                {
+                    GameObject obstacle = Instantiate(obstaclePrefabs[Random.Range(0, activePosition.Length)]);
+                    obstacle.SetActive(false);
+                    obstacleList.Add(obstacle);
+                }
+
+                random = (random +1) % obstacleList.Count;
+            }
+
+            obstacleList[random].SetActive(true);
+
+            obstacleList[random].transform.position = activePosition[randomPosition].position;
+
+            yield return waitForSeconds;
+        }
+       
+    }
+
+    public bool ExamineActive()
+    {
+        for( int i = 0; i < obstacleList.Count; i++)
+        {
+            if (obstacleList[i].activeSelf == false)
+            {
+                return false;
+            }
+        }
+        return true;
     }
 }

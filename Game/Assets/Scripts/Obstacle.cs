@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Obstacle : MonoBehaviour
+public class Obstacle : MonoBehaviour, IInterectable
 {
     [SerializeField] float speed = 5.0f;
     [SerializeField] Vector3 direction;
@@ -22,4 +22,10 @@ public class Obstacle : MonoBehaviour
     {
         transform.Translate(direction*speed*Time.deltaTime);
     }
+
+    public void Interact()
+    {
+        gameObject.SetActive(false);
+    }
+
 }
