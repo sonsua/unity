@@ -93,6 +93,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8938771483752077552}
   - component: {fileID: 8748439898630034530}
+  - component: {fileID: 3580125291063018836}
   m_Layer: 0
   m_Name: Fifth Road
   m_TagString: Road
@@ -107,7 +108,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2005130209826166889}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 80}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -118,18 +119,18 @@ Transform:
   - {fileID: 8084821729272784018}
   - {fileID: 1279907264924157488}
   - {fileID: 7006812867119233288}
-  - {fileID: 2119777868616785673}
+  - {fileID: 2119777868616910216}
   - {fileID: 2956252786436710181}
   - {fileID: 6245451254683202006}
-  - {fileID: 6298378353946588702}
+  - {fileID: 6298378353946193053}
   - {fileID: 7716296025885576981}
   - {fileID: 5415628280138872156}
-  - {fileID: 6191099567638276844}
+  - {fileID: 6191099567637885035}
   - {fileID: 7207254038549264585}
-  - {fileID: 6302509176716347482}
+  - {fileID: 6302509176716743385}
   - {fileID: 1318449058071048188}
   - {fileID: 4660029542710884483}
-  - {fileID: 3680631524016615014}
+  - {fileID: 3680631524016485605}
   - {fileID: 8321244455193981886}
   m_Father: {fileID: 0}
   m_RootOrder: -1
@@ -155,6 +156,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 60, y: 0.1, z: 20}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3580125291063018836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005130209826166889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 542757c5b9ac28749a1c9b987de6284f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  callback:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: RoadManager, Assembly-CSharp
+        m_MethodName: NewPosition
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2670835996089036875
 GameObject:
   m_ObjectHideFlags: 0
@@ -597,7 +625,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b14aef9a05449784da6735de9ec90b24, type: 3}
---- !u!4 &2119777868616785673 stripped
+--- !u!4 &2119777868616910216 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b14aef9a05449784da6735de9ec90b24, type: 3}
   m_PrefabInstance: {fileID: 2119777868616785672}
@@ -729,7 +757,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
---- !u!4 &3680631524016615014 stripped
+--- !u!4 &3680631524016485605 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b82e76f4092b7d24aaeecddf36fe8d3b, type: 3}
   m_PrefabInstance: {fileID: 3680631524016615013}
@@ -959,7 +987,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97229e82747352a43b48688ec573f8e4, type: 3}
---- !u!4 &6191099567638276844 stripped
+--- !u!4 &6191099567637885035 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 97229e82747352a43b48688ec573f8e4, type: 3}
   m_PrefabInstance: {fileID: 6191099567638276843}
@@ -1123,7 +1151,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
---- !u!4 &6298378353946588702 stripped
+--- !u!4 &6298378353946193053 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
   m_PrefabInstance: {fileID: 6298378353946588701}
@@ -1189,7 +1217,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52f3bf47c9c62af4588469ff668b805c, type: 3}
---- !u!4 &6302509176716347482 stripped
+--- !u!4 &6302509176716743385 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 52f3bf47c9c62af4588469ff668b805c, type: 3}
   m_PrefabInstance: {fileID: 6302509176716347481}

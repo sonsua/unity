@@ -19,9 +19,17 @@ public class Runner : MonoBehaviour
     [SerializeField] float positionX = 3.5f;
     [SerializeField] float speed = 5.0f;
 
+    [SerializeField] RoadLine PreviousLine;
+
+
     private void OnEnable()
     {
         InputManager.Instance.keyAction += OnKeyUpdate;
+    }
+
+    public void RevertPosition()
+    {
+        roadLine = PreviousLine;
     }
 
     // Start is called before the first frame update
@@ -35,6 +43,8 @@ public class Runner : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
+            PreviousLine = roadLine;
+
             if (roadLine != RoadLine.LEFT)
             {
                 roadLine--;
@@ -47,6 +57,8 @@ public class Runner : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
+            PreviousLine = roadLine;
+
             if (roadLine != RoadLine.RIGHT)
             {
                 roadLine++;

@@ -10,8 +10,6 @@ public class ObstacleManager : MonoBehaviour
 
     [SerializeField] List<GameObject> obstacleList;
 
-    [SerializeField] float speed = 1.0f;
-
     [SerializeField] int random;
     [SerializeField] int randomPosition;
 

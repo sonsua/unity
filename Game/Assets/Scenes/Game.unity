@@ -137,15 +137,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7d62cc71faaef4f44aa9f0b0306dc7f4, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.8
+      value: 1.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7d62cc71faaef4f44aa9f0b0306dc7f4, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.8
+      value: 1.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7d62cc71faaef4f44aa9f0b0306dc7f4, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.8
+      value: 1.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7d62cc71faaef4f44aa9f0b0306dc7f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -228,6 +228,7 @@ MonoBehaviour:
   roadLine: 0
   positionX: 3.5
   speed: 15
+  PreviousLine: 0
 --- !u!4 &11545848 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7d62cc71faaef4f44aa9f0b0306dc7f4, type: 3}
@@ -762,7 +763,6 @@ MonoBehaviour:
   - {fileID: 6874771888231829994, guid: 70719efe00cf91a46857559c2c460085, type: 3}
   - {fileID: 4389748104713100980, guid: 1e97b58c2b6271740b824f2782f235b5, type: 3}
   obstacleList: []
-  speed: 1
   random: 0
   randomPosition: 0
   activePosition:
@@ -1008,6 +1008,7 @@ GameObject:
   - component: {fileID: 1725264832}
   - component: {fileID: 1725264833}
   - component: {fileID: 1725264834}
+  - component: {fileID: 1725264835}
   m_Layer: 0
   m_Name: Interact Zone
   m_TagString: Untagged
@@ -1049,7 +1050,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 10, y: 3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1725264834
 Rigidbody:
@@ -1078,6 +1079,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1725264835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725264831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2efc447012768654b9a3fbc08d88e8bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1748564904
 GameObject:
   m_ObjectHideFlags: 0
@@ -1229,6 +1242,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1449504795}
     m_Modifications:
+    - target: {fileID: 1833841604638127290, guid: a513ebc077eff224285627892f86772a, type: 3}
+      propertyPath: callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1449504796}
     - target: {fileID: 8225197732431634523, guid: a513ebc077eff224285627892f86772a, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1304,6 +1321,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fifth Road
       objectReference: {fileID: 0}
+    - target: {fileID: 3580125291063018836, guid: 1883d0040d3634e46977262d2e7997c5, type: 3}
+      propertyPath: callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1449504796}
     - target: {fileID: 8938771483752077552, guid: 1883d0040d3634e46977262d2e7997c5, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -1409,6 +1430,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5222144644065321409, guid: 03af9f2ca17d4014c9310dc3e21eb6b9, type: 3}
+      propertyPath: callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1449504796}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1432,6 +1457,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1449504795}
     m_Modifications:
+    - target: {fileID: 1529772072219224448, guid: 30dd861e4e48e25498872364635c409f, type: 3}
+      propertyPath: callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1449504796}
     - target: {fileID: 4704897107120237199, guid: 30dd861e4e48e25498872364635c409f, type: 3}
       propertyPath: m_Name
       value: Second Road
@@ -1551,6 +1580,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: First Road
       objectReference: {fileID: 0}
+    - target: {fileID: 5147269799649113849, guid: 3485852bb05c17e439e56d8c22b2af96, type: 3}
+      propertyPath: callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1449504796}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
