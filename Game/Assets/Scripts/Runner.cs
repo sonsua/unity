@@ -70,6 +70,21 @@ public class Runner : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        IHitable hitable = other.GetComponent<IHitable>();
+
+        if (hitable != null)
+        {
+            hitable.Activate(this);
+        }
+    }
+
+    public void Die()
+    {
+        animator.Play("Die");
+    }
+
     // Update is called once per frame
     void Update()
     {         

@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 5442806092603492074}
   - component: {fileID: -1843473805298988976}
   - component: {fileID: -6865434946806784769}
+  - component: {fileID: 4218057609696812449}
   m_Layer: 0
   m_Name: Ambulance
   m_TagString: Untagged
@@ -157,8 +158,35 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 3, y: 3, z: 6}
+  m_Center: {x: 0, y: 1.5, z: 0}
+--- !u!54 &4218057609696812449
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434607358045666999}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &1781270786341681130
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,6 +416,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4728070820839888841}
   - component: {fileID: 2986758668374777839}
+  - component: {fileID: 1986837338306170847}
   m_Layer: 0
   m_Name: Back Detector
   m_TagString: Untagged
@@ -425,12 +454,24 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3, y: 2.5, z: 1.25}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1986837338306170847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5820080945104283503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a91a0a8f252f524b81284404550c693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6754824310010006548
 GameObject:
   m_ObjectHideFlags: 0

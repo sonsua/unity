@@ -365,6 +365,7 @@ GameObject:
   m_Component:
   - component: {fileID: 760499018393468527}
   - component: {fileID: 8972237479679946337}
+  - component: {fileID: 7087463955733294323}
   m_Layer: 0
   m_Name: Back Detector
   m_TagString: Untagged
@@ -402,12 +403,24 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3, y: 2.5, z: 1}
   m_Center: {x: 0, y: 0, z: 0.275}
+--- !u!114 &7087463955733294323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6848358263703932884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a91a0a8f252f524b81284404550c693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6874771888231829994
 GameObject:
   m_ObjectHideFlags: 0
@@ -419,6 +432,7 @@ GameObject:
   - component: {fileID: 6501441776966559202}
   - component: {fileID: 4107909744621406723}
   - component: {fileID: -3620736794927773649}
+  - component: {fileID: 2605710869437413541}
   m_Layer: 0
   m_Name: Police Car
   m_TagString: Untagged
@@ -447,7 +461,7 @@ Transform:
   - {fileID: 7715274472367413930}
   - {fileID: 760499018393468527}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &4107909744621406723
 MonoBehaviour:
@@ -482,8 +496,35 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 3, y: 2.5, z: 6}
+  m_Center: {x: 0, y: 1.25, z: 0}
+--- !u!54 &2605710869437413541
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6874771888231829994}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!1 &7449809757276658799
 GameObject:
   m_ObjectHideFlags: 0
