@@ -62,7 +62,7 @@ public class ObstacleManager : MonoBehaviour
 
             obstacleList[random].transform.position = activePosition[randomPosition].position;
 
-            yield return waitForSeconds;
+            yield return CoroutineCache.waitForSeconds(5.0f);
         }
        
     }
