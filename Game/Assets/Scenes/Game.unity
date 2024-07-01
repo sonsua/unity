@@ -229,6 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54cab7ed33c8bba4882d7ad86248f947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  state: 1
   animator: {fileID: 0}
   sound: {fileID: 8300000, guid: 4bf903995edd43c4398c83b08e549138, type: 3}
   roadLine: 0

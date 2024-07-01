@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,7 +12,7 @@ public enum RoadLine
 }
 
 [RequireComponent(typeof(Rigidbody))]
-public class Runner : MonoBehaviour
+public class Runner : State
 {
     [SerializeField] Animator animator;
     [SerializeField] AudioClip sound;
@@ -26,6 +27,7 @@ public class Runner : MonoBehaviour
     private void OnEnable()
     {
         InputManager.Instance.keyAction += OnKeyUpdate;
+
     }
 
     public void RevertPosition()
@@ -42,6 +44,8 @@ public class Runner : MonoBehaviour
 
     void OnKeyUpdate()
     {
+        if (state == false) return;
+
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             PreviousLine = roadLine;
@@ -94,11 +98,13 @@ public class Runner : MonoBehaviour
 
     public void Move()
     {
+        if (state == false) return;
         transform.position = Vector3.Lerp(transform.position, new Vector3(positionX * (float)roadLine, 0, 0), speed*Time.deltaTime);
     }
 
     private void OnDisable()
     {
         InputManager.Instance.keyAction -= OnKeyUpdate;
+
     }
 }

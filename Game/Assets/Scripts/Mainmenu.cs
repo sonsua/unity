@@ -6,6 +6,8 @@ public class Mainmenu : MonoBehaviour
 {
 public void Execute()
     {
+        EventManager.Publish(EventType.START);
+
         StartCoroutine(SceneControler.Instance.AsyncLoad(1));
     }
 }
