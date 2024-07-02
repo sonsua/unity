@@ -1,10 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class ObstacleManager : MonoBehaviour
+public class ObstacleManager : State
 {
     [SerializeField] GameObject[] obstaclePrefabs;
 
@@ -41,7 +39,7 @@ public class ObstacleManager : MonoBehaviour
     {
         WaitForSeconds waitForSeconds = new WaitForSeconds(5f);
 
-        while (true)
+        while (state)
         {
             random = Random.Range(0, obstacleList.Count);
             randomPosition = Random.Range(0, activePosition.Length);

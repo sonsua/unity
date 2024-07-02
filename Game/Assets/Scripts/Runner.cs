@@ -12,6 +12,7 @@ public enum RoadLine
 }
 
 [RequireComponent(typeof(Rigidbody))]
+
 public class Runner : State
 {
     [SerializeField] Animator animator;
@@ -26,8 +27,8 @@ public class Runner : State
 
     private void OnEnable()
     {
+        base.OnEnable();
         InputManager.Instance.keyAction += OnKeyUpdate;
-
     }
 
     public void RevertPosition()
@@ -39,9 +40,16 @@ public class Runner : State
     void Start()
     {
         roadLine = RoadLine.MIDDLE;
+        PreviousLine = RoadLine.MIDDLE;
         animator = GetComponent<Animator>();
+
+        Initioalize();
     }
 
+    public void Initioalize()
+    {
+        animator.speed = SpeedManager.Speed / 20;
+    }
     void OnKeyUpdate()
     {
         if (state == false) return;
@@ -90,9 +98,9 @@ public class Runner : State
         animator.Play("Die");
     }
 
-    // Update is called once per frame
     void Update()
-    {         
+    {
+        if (state == false) return;
         Move();
     }
 
@@ -104,7 +112,7 @@ public class Runner : State
 
     private void OnDisable()
     {
+        base.OnDisable();
         InputManager.Instance.keyAction -= OnKeyUpdate;
-
     }
 }
