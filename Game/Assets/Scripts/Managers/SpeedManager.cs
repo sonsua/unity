@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class SpeedManager : MonoBehaviour
+public class SpeedManager : State
 {
     [SerializeField] UnityEvent callback;
     [SerializeField] static float speed;
@@ -25,7 +25,7 @@ public class SpeedManager : MonoBehaviour
 
     IEnumerator Increase()
     {
-        while (limitSpeed>speed)
+        while (limitSpeed>speed && state == true)
         {
             if (callback != null)
             {

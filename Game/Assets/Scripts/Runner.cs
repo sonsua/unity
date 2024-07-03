@@ -37,10 +37,11 @@ public class Runner : State
     }
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         roadLine = RoadLine.MIDDLE;
         PreviousLine = RoadLine.MIDDLE;
+
         animator = GetComponent<Animator>();
 
         Initioalize();
