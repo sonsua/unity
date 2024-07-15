@@ -15,6 +15,8 @@ public enum RoadLine
 
 public class Runner : State
 {
+    [SerializeField] Rigidbody rigidbody;
+
     [SerializeField] Animator animator;
     [SerializeField] AudioClip sound;
 
@@ -43,6 +45,7 @@ public class Runner : State
         PreviousLine = RoadLine.MIDDLE;
 
         animator = GetComponent<Animator>();
+        rigidbody = GetComponent<Rigidbody>();
 
         Initioalize();
     }
@@ -108,7 +111,7 @@ public class Runner : State
     public void Move()
     {
         if (state == false) return;
-        transform.position = Vector3.Lerp(transform.position, new Vector3(positionX * (float)roadLine, 0, 0), speed*Time.deltaTime);
+        rigidbody.position = Vector3.Lerp(rigidbody.position, new Vector3(positionX * (float)roadLine, 0, 0), speed*Time.deltaTime);
     }
 
     private void OnDisable()
