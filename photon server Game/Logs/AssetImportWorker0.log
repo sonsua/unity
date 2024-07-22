@@ -15,7 +15,7 @@ C:/Users/USER/OneDrive/바탕 화면/unity/photon server Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65036
+57823
 Successfully changed project path to: C:/Users/USER/OneDrive/바탕 화면/unity/photon server Game
 C:/Users/USER/OneDrive/바탕 화면/unity/photon server Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/USER/OneDrive/바탕 화면/unity/photon server Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7572] Host "[IP] 172.30.1.64 [Port] 0 [Flags] 2 [Guid] 2851544862 [EditorId] 2851544862 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GCF9ANB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21204] Host "[IP] 172.30.1.64 [Port] 0 [Flags] 2 [Guid] 781831769 [EditorId] 781831769 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GCF9ANB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7572] Host "[IP] 172.30.1.64 [Port] 0 [Flags] 2 [Guid] 2851544862 [EditorId] 2851544862 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GCF9ANB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21204] Host "[IP] 172.30.1.64 [Port] 0 [Flags] 2 [Guid] 781831769 [EditorId] 781831769 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GCF9ANB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 7.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2374.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.19f1 (765657fe9343)
 [Subsystems] Discovering subsystems at path D:/program/2022.2.19f1/Editor/Data/Resources/UnitySubsystems
@@ -67,48 +67,48 @@ Initialize mono
 Mono path[0] = 'D:/program/2022.2.19f1/Editor/Data/Managed'
 Mono path[1] = 'D:/program/2022.2.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/program/2022.2.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/program/2022.2.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/program/2022.2.19f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: D:/program/2022.2.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003756 seconds.
-- Loaded All Assemblies, in  0.208 seconds
+Registered in 0.004820 seconds.
+- Loaded All Assemblies, in  7.476 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 151 ms
+Android Extension - Scanning For ADB Devices 196 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.366 seconds
+- Finished resetting the current domain, in  0.736 seconds
 Domain Reload Profiling:
-	ReloadAssembly (117ms)
-		BeginReloadAssembly (50ms)
+	ReloadAssembly (6086ms)
+		BeginReloadAssembly (5577ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (50ms)
+			LoadAssemblies (5577ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (89ms)
-				TypeCache.Initialize (88ms)
-					TypeCache.ScanAssembly (87ms)
+			SetupTypeCache (1387ms)
+				TypeCache.Initialize (1386ms)
+					TypeCache.ScanAssembly (1385ms)
 				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (327ms)
+			SetupLoadedEditorAssemblies (693ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (230ms)
-				SetLoadedEditorAssemblies (2ms)
+				InitializePlatformSupportModulesInManaged (577ms)
+				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (63ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -118,50 +118,50 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\USER\OneDrive\바탕 화면\unity\photon server Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\USER\OneDrive\바탕 화면\unity\photon server Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.593 seconds
-Refreshing native plugins compatible for Editor in 2.99 ms, found 3 plugins.
+- Loaded All Assemblies, in  9.403 seconds
+Refreshing native plugins compatible for Editor in 3.70 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.501 seconds
+- Finished resetting the current domain, in  0.705 seconds
 Domain Reload Profiling:
-	ReloadAssembly (131ms)
-		BeginReloadAssembly (77ms)
+	ReloadAssembly (146ms)
+		BeginReloadAssembly (87ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		LoadAllAssembliesAndSetupDomain (461ms)
-			LoadAssemblies (182ms)
+			CreateAndSetChildDomain (16ms)
+		LoadAllAssembliesAndSetupDomain (9257ms)
+			LoadAssemblies (8097ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (313ms)
-				TypeCache.Initialize (290ms)
-					TypeCache.ScanAssembly (287ms)
+			SetupTypeCache (1201ms)
+				TypeCache.Initialize (1178ms)
+					TypeCache.ScanAssembly (1173ms)
 				ResolveRequiredComponents (4ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (390ms)
+			SetupLoadedEditorAssemblies (571ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
+				InitializePlatformSupportModulesInManaged (29ms)
 				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (39ms)
-				ProcessInitializeOnLoadAttributes (311ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (480ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 5.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3476 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (308.2 KB). Loaded Objects now: 3936.
-Memory consumption went from 132.4 MB to 132.1 MB.
-Total: 2.220900 ms (FindLiveObjects: 0.163500 ms CreateObjectMapping: 0.085900 ms MarkObjects: 1.881800 ms  DeleteObjects: 0.088500 ms)
+Unloading 3478 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (308.0 KB). Loaded Objects now: 3938.
+Memory consumption went from 132.5 MB to 132.2 MB.
+Total: 3.094200 ms (FindLiveObjects: 0.493600 ms CreateObjectMapping: 0.148900 ms MarkObjects: 2.356400 ms  DeleteObjects: 0.093800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -175,53 +175,223 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 781985.023726 seconds.
+  path: Assets/Scenes/Photon Game.unity
+  artifactKey: Guid(fd2b19634adeee64fac3c61f24968e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Photon Game.unity using Guid(fd2b19634adeee64fac3c61f24968e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba419660c6d3779c8817008e2df9a84') in 0.002083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 56.452201 seconds.
+  path: Assets/Scripts/information.cs
+  artifactKey: Guid(24304cf0dafcf4042a25aacc55f0d38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/information.cs using Guid(24304cf0dafcf4042a25aacc55f0d38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32989220ab810fc40ed2daa6cb757ce5') in 0.000702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 39.361880 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(67205f458426dca44a51d37166e4aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(67205f458426dca44a51d37166e4aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542e5718364a2e5279ac0fd4aa5f99a1') in 0.000445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.253201 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(67205f458426dca44a51d37166e4aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(67205f458426dca44a51d37166e4aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffa22f7b4dc034a1d5ecc84fe5180f0') in 0.000475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\USER\OneDrive\바탕 화면\unity\photon server Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\USER\OneDrive\바탕 화면\unity\photon server Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.502 seconds
-Refreshing native plugins compatible for Editor in 2.94 ms, found 3 plugins.
+- Loaded All Assemblies, in  3.425 seconds
+Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.609 seconds
+- Finished resetting the current domain, in  8.540 seconds
 Domain Reload Profiling:
-	ReloadAssembly (148ms)
+	ReloadAssembly (276ms)
 		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (32ms)
-		LoadAllAssembliesAndSetupDomain (354ms)
-			LoadAssemblies (180ms)
+		LoadAllAssembliesAndSetupDomain (3148ms)
+			LoadAssemblies (2897ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (212ms)
-				TypeCache.Initialize (206ms)
-					TypeCache.ScanAssembly (202ms)
+			SetupTypeCache (283ms)
+				TypeCache.Initialize (278ms)
+					TypeCache.ScanAssembly (273ms)
 				ResolveRequiredComponents (4ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (327ms)
+			SetupLoadedEditorAssemblies (333ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (35ms)
-				ProcessInitializeOnLoadAttributes (250ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3453 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (37.3 KB). Loaded Objects now: 3943.
+Memory consumption went from 127.0 MB to 126.9 MB.
+Total: 1.958500 ms (FindLiveObjects: 0.162400 ms CreateObjectMapping: 0.073700 ms MarkObjects: 1.685300 ms  DeleteObjects: 0.036400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 67.228032 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(67205f458426dca44a51d37166e4aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(67205f458426dca44a51d37166e4aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe538ced7eef8e2c3a2d61e20e716a2') in 0.004878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\OneDrive\바탕 화면\unity\photon server Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\OneDrive\바탕 화면\unity\photon server Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.520 seconds
+Refreshing native plugins compatible for Editor in 3.33 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.613 seconds
+Domain Reload Profiling:
+	ReloadAssembly (153ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		LoadAllAssembliesAndSetupDomain (365ms)
+			LoadAssemblies (180ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (223ms)
+				TypeCache.Initialize (216ms)
+					TypeCache.ScanAssembly (212ms)
+				ResolveRequiredComponents (5ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (333ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (36ms)
+				ProcessInitializeOnLoadAttributes (260ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 8.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3453 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (36.2 KB). Loaded Objects now: 3948.
+Memory consumption went from 127.0 MB to 126.9 MB.
+Total: 3.629300 ms (FindLiveObjects: 0.230700 ms CreateObjectMapping: 0.144600 ms MarkObjects: 3.197900 ms  DeleteObjects: 0.054900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.293160 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(67205f458426dca44a51d37166e4aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(67205f458426dca44a51d37166e4aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82622e390c5ec75815e3f669cdde23ca') in 0.001239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\OneDrive\바탕 화면\unity\photon server Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\OneDrive\바탕 화면\unity\photon server Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.523 seconds
+Refreshing native plugins compatible for Editor in 3.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.609 seconds
+Domain Reload Profiling:
+	ReloadAssembly (155ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		LoadAllAssembliesAndSetupDomain (367ms)
+			LoadAssemblies (186ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (222ms)
+				TypeCache.Initialize (216ms)
+					TypeCache.ScanAssembly (212ms)
+				ResolveRequiredComponents (4ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (339ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (258ms)
 				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 2.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 11.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3452 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (44.6 KB). Loaded Objects now: 3941.
-Memory consumption went from 127.1 MB to 127.1 MB.
-Total: 2.047200 ms (FindLiveObjects: 0.159600 ms CreateObjectMapping: 0.074400 ms MarkObjects: 1.773200 ms  DeleteObjects: 0.039200 ms)
+Unloading 3453 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (36.2 KB). Loaded Objects now: 3953.
+Memory consumption went from 127.0 MB to 126.9 MB.
+Total: 3.363500 ms (FindLiveObjects: 0.474000 ms CreateObjectMapping: 0.092500 ms MarkObjects: 2.748500 ms  DeleteObjects: 0.047600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -237,76 +407,60 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 453561.551294 seconds.
-  path: Assets/Resources/Room.prefab
-  artifactKey: Guid(b0a3d30974f10d749a70fd16b66a162f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Room.prefab using Guid(b0a3d30974f10d749a70fd16b66a162f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a1f5811f5246d7446493d215f01252') in 0.065184 seconds
+  Time since last request: 34.283535 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(67205f458426dca44a51d37166e4aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(67205f458426dca44a51d37166e4aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a07d8f9037423ba9ab374de72a4efff') in 0.005007 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 53.228309 seconds.
-  path: Assets/Resources/Room.prefab
-  artifactKey: Guid(b0a3d30974f10d749a70fd16b66a162f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Room.prefab using Guid(b0a3d30974f10d749a70fd16b66a162f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b74e2ad5b49988b59bbd1b8fc1563bd') in 0.020230 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 360.738675 seconds.
-  path: Assets/Resources/Room.prefab
-  artifactKey: Guid(b0a3d30974f10d749a70fd16b66a162f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Room.prefab using Guid(b0a3d30974f10d749a70fd16b66a162f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d08e0d4acf2700f497003f2338b8d0') in 0.012664 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\USER\OneDrive\바탕 화면\unity\photon server Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\USER\OneDrive\바탕 화면\unity\photon server Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.510 seconds
-Refreshing native plugins compatible for Editor in 3.00 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.681 seconds
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.669 seconds
+- Finished resetting the current domain, in  0.738 seconds
 Domain Reload Profiling:
-	ReloadAssembly (150ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (195ms)
+		BeginReloadAssembly (122ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		LoadAllAssembliesAndSetupDomain (359ms)
-			LoadAssemblies (183ms)
+			CreateAndSetChildDomain (38ms)
+		LoadAllAssembliesAndSetupDomain (484ms)
+			LoadAssemblies (241ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (212ms)
-				TypeCache.Initialize (208ms)
-					TypeCache.ScanAssembly (203ms)
+			SetupTypeCache (288ms)
+				TypeCache.Initialize (282ms)
+					TypeCache.ScanAssembly (277ms)
 				ResolveRequiredComponents (4ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (372ms)
+			SetupLoadedEditorAssemblies (445ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (285ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (342ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.07 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 5.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3451 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (36.9 KB). Loaded Objects now: 3947.
-Memory consumption went from 126.9 MB to 126.8 MB.
-Total: 2.240800 ms (FindLiveObjects: 0.211600 ms CreateObjectMapping: 0.085000 ms MarkObjects: 1.888800 ms  DeleteObjects: 0.054300 ms)
+Unloading 3453 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (36.1 KB). Loaded Objects now: 3958.
+Memory consumption went from 127.0 MB to 127.0 MB.
+Total: 2.878700 ms (FindLiveObjects: 0.345900 ms CreateObjectMapping: 0.099700 ms MarkObjects: 2.385600 ms  DeleteObjects: 0.046200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -321,191 +475,146 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 35.845922 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(67205f458426dca44a51d37166e4aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(67205f458426dca44a51d37166e4aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cdb9e78372bdf41530f775afc272c8b') in 0.001635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.281822 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(67205f458426dca44a51d37166e4aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(67205f458426dca44a51d37166e4aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c044da206a2586a6f9f23430c4a00fec') in 0.000546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 39.132673 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(67205f458426dca44a51d37166e4aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(67205f458426dca44a51d37166e4aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8028dc8a1587202521d92023415b892') in 0.000444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\USER\OneDrive\바탕 화면\unity\photon server Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\USER\OneDrive\바탕 화면\unity\photon server Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.516 seconds
-Refreshing native plugins compatible for Editor in 2.68 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.665 seconds
+Refreshing native plugins compatible for Editor in 3.71 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.611 seconds
+- Finished resetting the current domain, in  0.650 seconds
+Domain Reload Profiling:
+	ReloadAssembly (193ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		LoadAllAssembliesAndSetupDomain (471ms)
+			LoadAssemblies (239ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (283ms)
+				TypeCache.Initialize (274ms)
+					TypeCache.ScanAssembly (268ms)
+				ResolveRequiredComponents (6ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (355ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3453 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (36.1 KB). Loaded Objects now: 3963.
+Memory consumption went from 127.0 MB to 127.0 MB.
+Total: 2.887900 ms (FindLiveObjects: 0.397300 ms CreateObjectMapping: 0.103800 ms MarkObjects: 2.339100 ms  DeleteObjects: 0.046600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 37.310520 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(67205f458426dca44a51d37166e4aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(67205f458426dca44a51d37166e4aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317055e9c013295fd217789185127307') in 0.001503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\OneDrive\바탕 화면\unity\photon server Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\USER\OneDrive\바탕 화면\unity\photon server Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.627 seconds
+Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.889 seconds
 Domain Reload Profiling:
 	ReloadAssembly (166ms)
-		BeginReloadAssembly (121ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		LoadAllAssembliesAndSetupDomain (349ms)
-			LoadAssemblies (178ms)
+			CreateAndSetChildDomain (35ms)
+		LoadAllAssembliesAndSetupDomain (460ms)
+			LoadAssemblies (234ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (208ms)
-				TypeCache.Initialize (204ms)
-					TypeCache.ScanAssembly (199ms)
-				ResolveRequiredComponents (4ms)
+			SetupTypeCache (265ms)
+				TypeCache.Initialize (257ms)
+					TypeCache.ScanAssembly (251ms)
+				ResolveRequiredComponents (7ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (358ms)
+			SetupLoadedEditorAssemblies (579ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (23ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (278ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3452 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (44.6 KB). Loaded Objects now: 3952.
-Memory consumption went from 127.1 MB to 127.1 MB.
-Total: 2.106800 ms (FindLiveObjects: 0.171700 ms CreateObjectMapping: 0.078700 ms MarkObjects: 1.814000 ms  DeleteObjects: 0.041900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 339.191484 seconds.
-  path: Assets/Scenes/Photon Lobby.unity
-  artifactKey: Guid(23f9d0f4abb42394dbc477d8864144a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Photon Lobby.unity using Guid(23f9d0f4abb42394dbc477d8864144a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09338fa3617ecead3a15a8c464a8ad5e') in 0.001391 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 421.008434 seconds.
-  path: Assets/Resources/Alarm.prefab
-  artifactKey: Guid(b309ce657ee76d8418340da876ec7cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Alarm.prefab using Guid(b309ce657ee76d8418340da876ec7cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107a2a2b8853511fcebc0e8ee10e0605') in 0.052191 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\USER\OneDrive\바탕 화면\unity\photon server Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\USER\OneDrive\바탕 화면\unity\photon server Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.533 seconds
-Refreshing native plugins compatible for Editor in 4.56 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.989 seconds
-Domain Reload Profiling:
-	ReloadAssembly (159ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		LoadAllAssembliesAndSetupDomain (373ms)
-			LoadAssemblies (188ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (225ms)
-				TypeCache.Initialize (221ms)
-					TypeCache.ScanAssembly (217ms)
-				ResolveRequiredComponents (4ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (472ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (34ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (358ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (496ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 6.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3451 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (36.2 KB). Loaded Objects now: 3957.
-Memory consumption went from 126.9 MB to 126.8 MB.
-Total: 2.278600 ms (FindLiveObjects: 0.197600 ms CreateObjectMapping: 0.087600 ms MarkObjects: 1.948100 ms  DeleteObjects: 0.044300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\USER\OneDrive\바탕 화면\unity\photon server Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\USER\OneDrive\바탕 화면\unity\photon server Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.522 seconds
-Refreshing native plugins compatible for Editor in 3.39 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.664 seconds
-Domain Reload Profiling:
-	ReloadAssembly (177ms)
-		BeginReloadAssembly (125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		LoadAllAssembliesAndSetupDomain (344ms)
-			LoadAssemblies (181ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (205ms)
-				TypeCache.Initialize (201ms)
-					TypeCache.ScanAssembly (196ms)
-				ResolveRequiredComponents (4ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (370ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (284ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 3.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3452 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (43.5 KB). Loaded Objects now: 3962.
-Memory consumption went from 127.1 MB to 127.1 MB.
-Total: 2.132200 ms (FindLiveObjects: 0.220400 ms CreateObjectMapping: 0.089500 ms MarkObjects: 1.777700 ms  DeleteObjects: 0.043800 ms)
+Unloading 3453 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (36.2 KB). Loaded Objects now: 3968.
+Memory consumption went from 127.0 MB to 127.0 MB.
+Total: 2.509300 ms (FindLiveObjects: 0.385100 ms CreateObjectMapping: 0.105300 ms MarkObjects: 1.978600 ms  DeleteObjects: 0.039200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -521,10 +630,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 586.884953 seconds.
-  path: Assets/Scenes/Photon Lobby.unity
-  artifactKey: Guid(23f9d0f4abb42394dbc477d8864144a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Photon Lobby.unity using Guid(23f9d0f4abb42394dbc477d8864144a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60aeb62e7b5578d1c77c0fea449c884') in 0.001755 seconds
+  Time since last request: 6.461216 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(67205f458426dca44a51d37166e4aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(67205f458426dca44a51d37166e4aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c13cc677e520efe3a62583230681129') in 0.001752 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
@@ -532,49 +641,49 @@ Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\USER\OneDrive\바탕 화면\unity\photon server Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\USER\OneDrive\바탕 화면\unity\photon server Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.528 seconds
-Refreshing native plugins compatible for Editor in 3.57 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.711 seconds
+Refreshing native plugins compatible for Editor in 2.99 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.698 seconds
+- Finished resetting the current domain, in  0.600 seconds
 Domain Reload Profiling:
-	ReloadAssembly (156ms)
+	ReloadAssembly (147ms)
 		BeginReloadAssembly (100ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		LoadAllAssembliesAndSetupDomain (371ms)
-			LoadAssemblies (197ms)
+			CreateAndSetChildDomain (29ms)
+		LoadAllAssembliesAndSetupDomain (563ms)
+			LoadAssemblies (186ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (211ms)
-				TypeCache.Initialize (205ms)
-					TypeCache.ScanAssembly (200ms)
+			SetupTypeCache (417ms)
+				TypeCache.Initialize (412ms)
+					TypeCache.ScanAssembly (408ms)
 				ResolveRequiredComponents (4ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (418ms)
+			SetupLoadedEditorAssemblies (337ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
-				SetLoadedEditorAssemblies (4ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (303ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 2.91 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3451 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (36.2 KB). Loaded Objects now: 3967.
-Memory consumption went from 126.9 MB to 126.9 MB.
-Total: 2.356000 ms (FindLiveObjects: 0.421400 ms CreateObjectMapping: 0.111000 ms MarkObjects: 1.778400 ms  DeleteObjects: 0.043900 ms)
+Unloading 3453 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (36.1 KB). Loaded Objects now: 3973.
+Memory consumption went from 127.0 MB to 127.0 MB.
+Total: 2.032600 ms (FindLiveObjects: 0.174500 ms CreateObjectMapping: 0.088500 ms MarkObjects: 1.725800 ms  DeleteObjects: 0.042700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -590,9 +699,287 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1307.976208 seconds.
-  path: Assets/Scripts/RoomManager.cs
-  artifactKey: Guid(3e6e69135605394459b6caefb0876b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/RoomManager.cs using Guid(3e6e69135605394459b6caefb0876b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2786ec7e0c9d4b9e6868baf91557e82') in 0.001985 seconds
+  Time since last request: 585.814352 seconds.
+  path: Assets/Terrain
+  artifactKey: Guid(5f274d358bc48f24fb7a27e8f32f0699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain using Guid(5f274d358bc48f24fb7a27e8f32f0699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3568e363929eff8def907e89b0863f49') in 0.002207 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 26.462449 seconds.
+  path: Assets/External Assets
+  artifactKey: Guid(836e16cac8d63984588c880b3af5101d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets using Guid(836e16cac8d63984588c880b3af5101d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd24de921517bd085626b460c4543de2') in 0.000512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 33.372088 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Color Palettes
+  artifactKey: Guid(b9316060bf893354abf8371a1927485c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Color Palettes using Guid(b9316060bf893354abf8371a1927485c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a71c2b50dceda00a110b6e91f6d0df') in 0.000401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.709896 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Color Palettes/Textures
+  artifactKey: Guid(19b2d86ed56738e49ad4d84994b0098c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Color Palettes/Textures using Guid(19b2d86ed56738e49ad4d84994b0098c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed91c5678f6fc5582b3ed032cdabbc21') in 0.001058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.236637 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Models/floating_islands_environment.obj
+  artifactKey: Guid(3dff5c602fa2a3a45b81246f45003770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Models/floating_islands_environment.obj using Guid(3dff5c602fa2a3a45b81246f45003770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1f90129cdabdb05eac9c43121d1f87') in 0.565627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 214
+========================================================================
+Received Import Request.
+  Time since last request: 0.466311 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Models/floating_islands_foliage.obj
+  artifactKey: Guid(5e87f13aea6549a4fab98bebe6f3d676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Models/floating_islands_foliage.obj using Guid(5e87f13aea6549a4fab98bebe6f3d676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1141858a10820ac2c8505f15b694205') in 0.117271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 104
+========================================================================
+Received Import Request.
+  Time since last request: 0.591071 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Models/floating_islands_other.obj
+  artifactKey: Guid(3ba712566fc5561499e3869933cfba26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Models/floating_islands_other.obj using Guid(3ba712566fc5561499e3869933cfba26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7c84dbcc1c7d812a3e6930f7de52e4') in 0.131187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 94
+========================================================================
+Received Import Request.
+  Time since last request: 2.157072 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Post Processing Profiles
+  artifactKey: Guid(0f48b20978477074cad94d031753b859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Post Processing Profiles using Guid(0f48b20978477074cad94d031753b859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5306565669c1cad2f36793a6f830f4') in 0.000441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.294113 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment
+  artifactKey: Guid(b2ad4440078b0b146bdbb24fc806fa94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment using Guid(b2ad4440078b0b146bdbb24fc806fa94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b86f3063baef25a3d6625d7401613a') in 0.000500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 49.715375 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_A_01.prefab
+  artifactKey: Guid(95fe2533720aeb743ade98ad01dc2812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_A_01.prefab using Guid(95fe2533720aeb743ade98ad01dc2812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9caaa623b26de9ba2b755bb168d5dd1b') in 0.016291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.017490 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_B_02.prefab
+  artifactKey: Guid(87ba70ffeb5cf0042b9c74cf165df40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_B_02.prefab using Guid(87ba70ffeb5cf0042b9c74cf165df40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a24128bd4f8f1e070055b54d163d912') in 0.014269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_D_02.prefab
+  artifactKey: Guid(46e0032fdef51c14ca01e02a0c5c51a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_D_02.prefab using Guid(46e0032fdef51c14ca01e02a0c5c51a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c505bbbea4aba0518801d22ebdbc50') in 0.015846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/rock_B_05.prefab
+  artifactKey: Guid(1e34067b5fa7fe344ba6f9221220c9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/rock_B_05.prefab using Guid(1e34067b5fa7fe344ba6f9221220c9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0d63bd734a884018ca59d62f8f2e11') in 0.017607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/step_B.prefab
+  artifactKey: Guid(5b87aaa8ae62bda4c9b439c47c58af88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/step_B.prefab using Guid(5b87aaa8ae62bda4c9b439c47c58af88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7612b61b110f1f999707e84c3324f52e') in 0.010320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_B_03.prefab
+  artifactKey: Guid(7c24dd9faf5375b45a48fc2ec5611bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_B_03.prefab using Guid(7c24dd9faf5375b45a48fc2ec5611bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e74523bf35501c22ca962bca33cc4d') in 0.011182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_C_03.prefab
+  artifactKey: Guid(e6f0ebdf9ad4d5f4fa7c752162158e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_C_03.prefab using Guid(e6f0ebdf9ad4d5f4fa7c752162158e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83d42309a75e3e6c6e316b1c67fd0b5') in 0.011911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_C_02.prefab
+  artifactKey: Guid(e8af5c3fb2315a346a436c1c610678bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_C_02.prefab using Guid(e8af5c3fb2315a346a436c1c610678bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b49eb804e44435b4e25fda021b7e7a8') in 0.012120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_B_03.prefab
+  artifactKey: Guid(f5e82a095a05b2449a438057d976f9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_B_03.prefab using Guid(f5e82a095a05b2449a438057d976f9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714023137d161ef037683014f5a2a2a9') in 0.012698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/rock_A_02.prefab
+  artifactKey: Guid(c0d2547f98835844d92f3d0708f62278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/rock_A_02.prefab using Guid(c0d2547f98835844d92f3d0708f62278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66897424b55b304b4e19e808d10d2383') in 0.016991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_D_01.prefab
+  artifactKey: Guid(d4de3ef49b2bacd49b5323211ec53005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_D_01.prefab using Guid(d4de3ef49b2bacd49b5323211ec53005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cf310d96c56178aaacda7f83114f7b') in 0.017207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_B_01.prefab
+  artifactKey: Guid(407387324762870468d85ad61dd08f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_B_01.prefab using Guid(407387324762870468d85ad61dd08f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd65993bea1ac9925c033af599ec1d1') in 0.012929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_B_01.prefab
+  artifactKey: Guid(fde337a468e20014bafb68143b6a0063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_B_01.prefab using Guid(fde337a468e20014bafb68143b6a0063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e39b04c477364f53f717f062666f3a5') in 0.015382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_C_05.prefab
+  artifactKey: Guid(08ec380a0584c88439caf007d5c94115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_C_05.prefab using Guid(08ec380a0584c88439caf007d5c94115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a3c0f9d9ef3ab45e550b1a45734685') in 0.011035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_A_01.prefab
+  artifactKey: Guid(a9adbf0dbd8731d40ba6ae6252f9e07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_A_01.prefab using Guid(a9adbf0dbd8731d40ba6ae6252f9e07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35c2ed8630c0aae40a165094f68eb3c') in 0.012719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_C_03.prefab
+  artifactKey: Guid(c0435ed3ab095314096e3aa3beb97d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_C_03.prefab using Guid(c0435ed3ab095314096e3aa3beb97d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3845774a823d2387322634301718cf50') in 0.012170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_D_01.prefab
+  artifactKey: Guid(4876715f92d30a040a6785bfb1a71c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_D_01.prefab using Guid(4876715f92d30a040a6785bfb1a71c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93170a3794b1e305a291a4afe41fd3f0') in 0.017717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_D_02.prefab
+  artifactKey: Guid(947a23021b21047489b507ed801c98d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_D_02.prefab using Guid(947a23021b21047489b507ed801c98d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf73d6267184353d947660aea8348a8') in 0.012910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/rock_B_06.prefab
+  artifactKey: Guid(71d9ac8f41d09d143a75c692c68b1ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/rock_B_06.prefab using Guid(71d9ac8f41d09d143a75c692c68b1ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603120b72558f85066e10f9fb6f7d551') in 0.011254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_D_03.prefab
+  artifactKey: Guid(6ce0ca3dc6ddf3346b91b194af53e741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/island_D_03.prefab using Guid(6ce0ca3dc6ddf3346b91b194af53e741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4e63db7c7d2b489755faecdacb9f4c') in 0.018018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_B_02.prefab
+  artifactKey: Guid(fcdf142f3b1adf84a8d03ef514947dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_B_02.prefab using Guid(fcdf142f3b1adf84a8d03ef514947dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b13d8874e8d4311b48368eac058331') in 0.010551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_C_01.prefab
+  artifactKey: Guid(ea659b8744c4b674da8200d2e9ce546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_C_01.prefab using Guid(ea659b8744c4b674da8200d2e9ce546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65baf1ea6a56bcc30a1eb8ada8e0a1d7') in 0.011524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_A_04.prefab
+  artifactKey: Guid(797944aea48e77445be9c1913af4909b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_A_04.prefab using Guid(797944aea48e77445be9c1913af4909b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b0af7ebf4da914f7e929c4eb3a2f15') in 0.015395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_A_05.prefab
+  artifactKey: Guid(6071f08f901cb7c488d79e521b34857e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_A_05.prefab using Guid(6071f08f901cb7c488d79e521b34857e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4c91ee073bdce1c24bab08550f551d') in 0.012008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_C_02.prefab
+  artifactKey: Guid(f0a291ea0f3501f438f285907ce69209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/platform_C_02.prefab using Guid(f0a291ea0f3501f438f285907ce69209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1137b76880b98dfa071090586632caea') in 0.011201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/step_A.prefab
+  artifactKey: Guid(07a907074ee5b0d40a8b2b0f9ebf8f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Terrain/Zololgo/FlatPoly Floating Islands/Prefabs/Environment/step_A.prefab using Guid(07a907074ee5b0d40a8b2b0f9ebf8f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334e8a1c2abad3c08e0583059cd274e0') in 0.011851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
